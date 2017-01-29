@@ -91,7 +91,7 @@ var info = L.control();
 info.onAdd = function(map) {
     this._div = L.DomUtil.create('div', 'info');
     this._div.innerHTML = (
-        "<h1><a href=\'\/plans\' title=\'Planeeringud\'>Planeeringud</a></h1> | <a href=\'https:\/\/tabor.ee\' title=\'Teostus: Tormi Tabor\' target=\'_blank\'>Teostus: Tormi Tabor</a> | <a href=\'https:\/\/buildig.com\' title=\'BUILDIG\' target=\'_blank\'>BUILDIG</a>"
+        "<h1><a href=\'\/plans\' title=\'Planeeringud\'>Planeeringud</a></h1> <a href=\'https:\/\/tabor.ee\' title=\'Teostus: Tormi Tabor\' target=\'_blank\'>Teostus: Tormi Tabor</a> | <a href=\'https:\/\/buildig.com\' title=\'BUILDIG\' target=\'_blank\'>BUILDIG</a>"
     );
     return this._div;
 };
